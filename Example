@@ -17,6 +17,11 @@ local LegitTab = TestWindow:AddTab('Legit');
 local LegitTabbox1 = LegitTab:AddLeftTabbox('Aimbot');
 local lAimbot1 = LegitTabbox1:AddTab('Aimbot');
 lAimbot1:AddToggle('Aimbot', { Text = 'Aimbot' }):AddKeyPicker('Test', { Text = 'Aimbot', Default = 'X' });
+
+while Toggles.Aimbot.value do
+--Code here
+end
+---For drops downs u will use Options.optionname.value
 lAimbot1:AddToggle('CheckTeam', { Text = 'Team Check' });
 lAimbot1:AddToggle('CheckVis', { Text = 'Visibility Check' });
 lAimbot1:AddToggle('VisPriority', { Text = 'Prioritize Visibles' });
