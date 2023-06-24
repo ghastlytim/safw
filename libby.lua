@@ -2520,7 +2520,7 @@ function Library:CreateWindow(WindowTitle)
 
             
 
-            Cursor:Remove();
+            
         end;
     end);
 
