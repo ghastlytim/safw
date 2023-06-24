@@ -27,7 +27,7 @@ local Library = {
     RegistryMap = {};
 
     HudRegistry = {};
-    Show = false
+    Show = false;
     FontColor = Color3.fromRGB(255, 255, 255);
     MainColor = Color3.fromRGB(0, 0, 0);
     BackgroundColor = Color3.fromRGB(0, 0, 0);
