@@ -118,8 +118,8 @@ function Library:Window(Title, Func, Options)
 	Options = CheckType(Options, "table", {})
 
 	Options.Gradient = CheckType(Options.Gradient, "table", {})
-    Options.Gradient.Start = CheckType(Options.Gradient.Start, "Color3", Color3.fromRGB(0,0,0))
-    Options.Gradient.End = CheckType(Options.Gradient.End, "Color3", Color3.fromRGB(10,10,10))
+    Options.Gradient.Start = CheckType(Options.Gradient.Start, "Color3", Color3.fromRGB(255,0,0))
+    Options.Gradient.End = CheckType(Options.Gradient.End, "Color3", Color3.fromRGB(20,20,20))
 	Options.Gradient.Rotation = CheckType(Options.Gradient.Rotation, "number", 0)
 
 	Options.Translate = CheckType(Options.Translate, "boolean", true)
