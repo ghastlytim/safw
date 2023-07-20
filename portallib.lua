@@ -6,8 +6,8 @@ local startUpArgs = getgenv().startUpArgs or { 'universal', 'public' }
     --LEAKED BY FIJI https://v3rmillion.net/showthread.php?tid=1208282
 --]]
 
-local drawing  = loadstring('https://gist.githubusercontent.com/0f76/9dc85c8c380d895373dd306fd372fa59/raw/e2abc40c2b5f159d61b10558c86e4f98823e30f5/drawing_extension.lua')()
-local tween = loadstring('https://gist.githubusercontent.com/0f76/1661258383c3c320ac5af2c9dd923fd5/raw/ee3c79b95eafa3b732127a0a7d37a4dc43b3bd60/custom_tween.lua')()
+local drawing  = loadstring('https://raw.githubusercontent.com/ghastlytim/safw/main/exe.lua')()
+local tween = loadstring('https://raw.githubusercontent.com/ghastlytim/safw/main/tweencust.lua')()
 local services = setmetatable({}, {
     __index = function(_, k)
         k = (k == "InputService" and "UserInputService") or k
